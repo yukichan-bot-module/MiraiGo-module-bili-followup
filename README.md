@@ -12,7 +12,7 @@ Module for [MiraiGo-Template](https://github.com/Logiase/MiraiGo-Template)
 
 ## 功能
 
-- 定时检查某鸽子是否更新视频，并第一时间在指定群内通知更新信息。
+- 定时检查指定 b 站视频 up 主是否更新视频，检测到新视频发布后第一时间在指定群内通知更新信息。
 
 ## 使用方法
 
