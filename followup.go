@@ -65,7 +65,6 @@ func (f *followup) Init() {
 			logger.Error("No video found for mid: %s", mid)
 			return
 		}
-		vList = vList[1:]
 		latestTime := vList[0].Created
 		for _, item := range vList {
 			if item.Created > latestTime {
