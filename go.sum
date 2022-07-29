@@ -56,13 +56,11 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/Logiase/MiraiGo-Template v0.0.0-20220412065005-27063e73adf8 h1:0LF49i0DoeUMhyeWQalAulNcKYI3agegsgi4W/tjyyo=
 github.com/Logiase/MiraiGo-Template v0.0.0-20220412065005-27063e73adf8/go.mod h1:K/NM/Y7NIt5JOTXLcVpoHbN7YcFarrEslLCWY/gUQ7A=
-github.com/Mrs4s/MiraiGo v0.0.0-20220720124026-5c0e2c5773de h1:cCEsQlZsem2DJlvtWI+CNI+lyz9zRuioBQFuBO94/MU=
-github.com/Mrs4s/MiraiGo v0.0.0-20220720124026-5c0e2c5773de/go.mod h1:Ow7nlaVS5FztyjrTlTRSG7HLpTNmgINMluHRCgKunDI=
+github.com/Mrs4s/MiraiGo v0.0.0-20211225150059-9946b404aea3 h1:4RgX7xwq663qvv4ebcXbtA+svl5LMUrZoLW/+RfTl2U=
+github.com/Mrs4s/MiraiGo v0.0.0-20211225150059-9946b404aea3/go.mod h1:VrmhZC9o+uKB9AKRy5bZZxE5EJwJhAmo7Xn/c2tzkZI=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
-github.com/RomiChan/protobuf v0.1.1-0.20220624030127-3310cba9dbc0 h1:+UGPBYVjssFsdahLJIiNPwpmmwgl/OaVdv1oc5NonC0=
-github.com/RomiChan/protobuf v0.1.1-0.20220624030127-3310cba9dbc0/go.mod h1:2Ie+hdBFQpQFDHfeklgxoFmQRCE7O+KwFpISeXq7OwA=
-github.com/RomiChan/syncx v0.0.0-20220404072119-d7ea0ae15a4c h1:cNPOdTNiVwxLpROLjXCgbIPvdkE+BwvxDvgmdYmWx6Q=
-github.com/RomiChan/syncx v0.0.0-20220404072119-d7ea0ae15a4c/go.mod h1:KqZzu7slNKROh3TSYEH/IUMG6f4M+1qubZ5e52QypsE=
+github.com/RomiChan/protobuf v0.0.0-20211223055824-048df49a8956 h1:hnaAkKz4t+xpSNVp5mnuloRMd3Rj2Lfg5biZ3emv//c=
+github.com/RomiChan/protobuf v0.0.0-20211223055824-048df49a8956/go.mod h1:CKKOWC7mBxd36zxsCB1V8DTrwlTNRQvkSVbYqyUiGEE=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/census-instrumentation/opencensus-proto v0.3.0 h1:t/LhUZLVitR1Ow2YOnduCsavhwFUklBMoGVYUCqmCqk=
@@ -105,8 +103,6 @@ github.com/envoyproxy/protoc-gen-validate v0.6.2 h1:JiO+kJTpmYGjEodY7O1Zk8oZcNz1
 github.com/envoyproxy/protoc-gen-validate v0.6.2/go.mod h1:2t7qjJNvHPx8IjnBOzl9E9/baC+qXE/TeeyBRzgJDws=
 github.com/fsnotify/fsnotify v1.5.1 h1:mZcQUHVQUQWoPXXtuf9yuEXKudkV2sx1E06UadKWpgI=
 github.com/fsnotify/fsnotify v1.5.1/go.mod h1:T3375wBYaZdLLcVNkcVbzGHY7f1l/uK5T5Ai1i3InKU=
-github.com/fumiama/imgsz v0.0.2 h1:fAkC0FnIscdKOXwAxlyw3EUba5NzxZdSxGaq3Uyfxak=
-github.com/fumiama/imgsz v0.0.2/go.mod h1:dR71mI3I2O5u6+PCpd47M9TZptzP+39tRBcbdIkoqM4=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1/go.mod h1:vR7hzQXu2zJy9AVAgeJqvqgH9Q5CA+iKCZ2gyEVpxRU=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20191125211704-12ad95a8df72/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
@@ -206,6 +202,8 @@ github.com/jonboulle/clockwork v0.2.2 h1:UOGuzwb1PwsrDAObMuhUnj0p5ULPj8V/xJ7Kx9q
 github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024/go.mod h1:6v2b51hI/fHJwM22ozAgKL4VKDeJcHhJFhtBdhmNjmU=
 github.com/jstemmer/go-junit-report v0.9.1/go.mod h1:Brl9GWCQeLvo8nXZwPNNblvFj/XSXhF0NWZEnDohbsk=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
+github.com/klauspost/compress v1.13.6 h1:P76CopJELS0TiO2mebmnzgWaajssP/EszplttgQxcgc=
+github.com/klauspost/compress v1.13.6/go.mod h1:/3/Vjq9QcHkK5uEr5lBEmyoZ1iFhe47etQ6QUkpK6sk=
 github.com/kr/fs v0.1.0/go.mod h1:FFnZGqtBN9Gxj7eW1uZ42v5BccTP0vu6NEaFoC2HwRg=
 github.com/kr/pretty v0.1.0 h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=

@@ -2,15 +2,17 @@ module github.com/yukichan-bot-module/MiraiGo-module-bili-followup
 
 go 1.17
 
-require github.com/Logiase/MiraiGo-Template v0.0.0-20220412065005-27063e73adf8
+require (
+	github.com/Logiase/MiraiGo-Template v0.0.0-20220412065005-27063e73adf8
+	github.com/Mrs4s/MiraiGo v0.0.0-20211225150059-9946b404aea3
+	gopkg.in/yaml.v2 v2.4.0
+)
 
 require (
 	cloud.google.com/go v0.99.0 // indirect
 	cloud.google.com/go/storage v1.18.2 // indirect
 	github.com/Baozisoftware/qrcode-terminal-go v0.0.0-20170407111555-c0650d8dff0f // indirect
-	github.com/Mrs4s/MiraiGo v0.0.0-20220720124026-5c0e2c5773de // indirect
-	github.com/RomiChan/protobuf v0.1.1-0.20220624030127-3310cba9dbc0 // indirect
-	github.com/RomiChan/syncx v0.0.0-20220404072119-d7ea0ae15a4c // indirect
+	github.com/RomiChan/protobuf v0.0.0-20211223055824-048df49a8956 // indirect
 	github.com/census-instrumentation/opencensus-proto v0.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/cncf/udpa/go v0.0.0-20210930031921-04548b0d99d4 // indirect
@@ -18,7 +20,6 @@ require (
 	github.com/envoyproxy/go-control-plane v0.10.1 // indirect
 	github.com/envoyproxy/protoc-gen-validate v0.6.2 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
-	github.com/fumiama/imgsz v0.0.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.6 // indirect
@@ -26,6 +27,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.1.1 // indirect
 	github.com/googleapis/google-cloud-go-testing v0.0.0-20210719221736-1c9a4c676720 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible // indirect
 	github.com/lestrrat-go/strftime v1.0.5 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
@@ -63,5 +65,4 @@ require (
 	google.golang.org/grpc v1.43.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
