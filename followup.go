@@ -143,7 +143,7 @@ func getVideoMessage(c *client.QQClient, groupID int64, video pkg.VideoRecord) (
 	if err != nil {
 		return nil, err
 	}
-	msgString := fmt.Sprintf("老鸽子更新视频了！\n标题：%s\n视频链接：%s", video.Title, video.URL)
+	msgString := fmt.Sprintf("%s更新视频了！\n标题：%s\n视频链接：%s", video.Author, video.Title, video.URL)
 	textMsg := message.NewText(msgString)
 	return message.NewSendingMessage().Append(imgMsgElement).Append(textMsg), nil
 }
