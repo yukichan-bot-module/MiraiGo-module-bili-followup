@@ -4,6 +4,8 @@ ID: `com.aimerneige.bili.followup`
 
 Module for [MiraiGo-Template](https://github.com/Logiase/MiraiGo-Template)
 
+![image](https://user-images.githubusercontent.com/51701792/182004950-bad2acd8-e49c-41fa-aa18-b9b986897272.png)
+
 ## 鸣谢
 
 感谢 [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) 项目提供的 API 接口。
