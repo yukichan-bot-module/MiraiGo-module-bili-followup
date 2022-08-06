@@ -25,7 +25,6 @@ var logger = utils.GetModuleLogger("com.aimerneige.bili.followup")
 var followConfig map[int64][]int64
 var sleepMinutes int
 var latestTimeMap map[int64]int64 = make(map[int64]int64)
-var c chan updateNotification = make(chan updateNotification)
 
 type followup struct {
 }
@@ -87,7 +86,9 @@ func (f *followup) Serve(b *bot.Bot) {
 
 // Start 此函数会新开携程进行调用
 // ```go
-// 		go exampleModule.Start()
+//
+//	go exampleModule.Start()
+//
 // ```
 // 可以利用此部分进行后台操作
 // 如 http 服务器等等
